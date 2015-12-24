@@ -1,7 +1,7 @@
 # Sitefinity.RelatedDataSelectorAndDialog
 Custom Related data dialog and selector
 
-Installation:
+## Installation
 
 1. Get the related data services from https://github.com/nzagorchev/Sitefinity.RelatedDataServices or write your own.
 2. Modify your Global Application class to register:
@@ -14,3 +14,8 @@ Installation:
 		<expandableDefinition expanded="True" />
 	</field>
 6. Embed the sfhtml file.
+
+## Functionality
+
+The field and services resolve dynamically all simple type fields of the module (string, Lstring, number, datetime etc.), as well as, all classification fields (including custom classification fields).
+![related data selector and dialog functionality gif](https://github.com/nzagorchev/Sitefinity.RelatedDataSelectorAndDialog/blob/master/Media/related-data-selector-and-dialog.gif)
