@@ -31,7 +31,7 @@ namespace SitefinityWebApp
         {
             if (e.CommandName == "RegisterRoutes")
             {
-				// RelatedDataService - get from GitHub: https://github.com/nzagorchev/Sitefinity.RelatedDataServices
+		// RelatedDataServices - get from GitHub: https://github.com/nzagorchev/Sitefinity.RelatedDataServices
                 SystemManager.RegisterServiceStackPlugin(new GenericDataServiceCustomPlugin(), true);
                 SystemManager.RegisterServiceStackPlugin(new RelatedDataServiceCustomPlugin(), true);
 
