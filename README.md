@@ -9,10 +9,12 @@ Custom Related data dialog and selector
 	- sfhtml route resolver;
 	- shtml virtual path resolver;
 5. Change the relating data field in the configs with the custom relating data field type. Example:
+```xml
 	<field wrapperTag="Li" fieldType="SitefinityWebApp.RelatingDataFieldCustom.RelatingDataFieldCustom, SitefinityWebApp" fieldName="RelatingDataField" type:this="Telerik.Sitefinity.Web.UI.Fields.Config.RelatingDataFieldDefinitionElement, Telerik.Sitefinity">
 		<validator expectedFormat="None" maxLength="-1" minLength="-1" required="False" validateIfInvisible="True" />
 		<expandableDefinition expanded="True" />
 	</field>
+```
 6. Embed the sfhtml file.
 
 ## Functionality
